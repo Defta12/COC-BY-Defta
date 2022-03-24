@@ -1,0 +1,101 @@
+html {
+    font-size: 1vw;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: coral;
+    align-items: center;
+}
+
+a { 
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    display: flex;
+    margin: 1rem;
+}
+
+.header-list {
+    display: flex;
+    margin-right: 5rem;
+    gap: 5rem;
+}
+
+@media only screen and (min-width: 1001px){
+    .header-list a{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 768px)  and (max-width: 1000px){
+    .header-list a{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 787px){
+    .header-list a{
+        font-size: 3rem;
+    }
+}
+
+.deskripsi {
+    font-size: 2rem;
+    justify-content: center; 
+}       
+
+@media only screen and (min-width: 1001px){
+    .deskripsi h2{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 768px)  and (max-width: 1000px){
+    .deskripsi h2{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 787px){
+    .deskripsi h2{
+        font-size: 3rem;
+    }
+}
+.gambar {
+justify-content: center;
+}
+
+@media only screen and (min-width: 1001px){
+    .gambar img{
+        width: 500px; height: auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    .gambar img{
+        width: 300px; height: auto;
+    }
+}
+@media only screen and (max-width: 787px){
+    .gambar img{
+        width: 200px; height: auto;
+    }
+}
+.footer {
+display: flex;
+justify-content: space-between;
+background-color: coral;
+align-items: center;
+margin: 0;
+}
